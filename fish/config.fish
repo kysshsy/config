@@ -251,3 +251,6 @@ end
 eval (keychain --quiet --eval --agents ssh)
 source ~/.keychain/$hostname-fish
 
+# set rust compile flag
+set -x RUSTFLAGS '-C link-arg=-fuse-ld=mold'
+
