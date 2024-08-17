@@ -2,6 +2,11 @@ local wezterm = require 'wezterm'
 local act = wezterm.action
 local config = {}
 
+config.color_scheme = 'Dracula+'
+
+-- set font
+config.font = wezterm.font('DejaVuSansMono',{})
+
 config.keys = {
 {
     key = 't',
